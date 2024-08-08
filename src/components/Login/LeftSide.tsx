@@ -85,7 +85,7 @@ export default function LeftSide() {
         <Link href={'/'}>
           <div className="flex items-center text-[1.7rem] mb-9 gap-1">
             <BookOpen className="h-[2rem] w-[2rem] text-white" weight="bold"/>
-            <p className=" font-semibold">FutureForge Hub</p>
+            <p className=" font-semibold">DIGITAL HORIZON</p>
           </div>
         </Link>
         <div className="text-[1.4rem]">

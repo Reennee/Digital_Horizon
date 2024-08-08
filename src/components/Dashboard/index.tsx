@@ -53,7 +53,7 @@ export default function Dashboard({isLogged}:{isLogged?:boolean}) {
         <Link href={!isLogged?'/':isAdmin===2?'/admin/dashboard':'/careers'}>
          <div className="flex items-center gap-1 text-white">
                 <BookOpen className="h-[2rem] w-[2rem]" weight="bold"/>
-                <p className=" font-semibold text-[1.5rem]">FutureForge Hub</p>
+                <p className=" font-semibold text-[1.5rem]">DIGITAL HORIZON</p>
            </div>
         </Link>
            <div>

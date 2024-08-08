@@ -18,13 +18,14 @@ import {
 } from "@/components/ui/dropdown-menu"
 import React from "react";
 import { BackgroundGradient } from "../ui/background-gradient";
-import prisca from '../../assets/prisca.png'
 import her2 from '../../assets/her2.png'
 import her3 from '../../assets/her3.png'
 import her4 from '../../assets/her4.png'
 import her5 from '../../assets/her5.png'
 import her6 from '../../assets/her6.png'
 import her7 from '../../assets/her7.png'
+import squareBox from '../../assets/squareBox.webp'
+
 
 import Image from "next/image";
 
@@ -100,7 +101,7 @@ Links:[string]
                     <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
                 </svg>
             ,
-            contact: "+250 786 076 846",
+            contact: "+250 789 731 036",
             title: "Phone"
         },
         {
@@ -109,7 +110,7 @@ Links:[string]
                     <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
                 </svg>
             ,
-            contact: "priscauwase2020@gmail.com",
+            contact: "r.ntabana@alustudent.com",
             title: "Email"
         },
     ]
@@ -200,31 +201,31 @@ export default function Course() {
                 </div>
                 <div className="flex flex-col lg:flex-row gap-9">
                     <div className="p-9"> 
-      <BackgroundGradient className="rounded-[22px] max-w-sm p-2 lg:p-2 w-[20rem] h-[25rem] bg-white dark:bg-zinc-900">
+      <BackgroundGradient className="rounded-[22px] max-w-sm p-2 lg:p-2 w-[20rem] h-[30rem] bg-white dark:bg-zinc-900">
         <Image
-          src={prisca}
+          src={squareBox}
           alt="jordans"
-          height="901"
+          height="800"
           width="900"
         //   fill={true}
           className="rounded-tl-2xl rounded-tr-2xl"
         />
         <div className="flex flex-col justify-center items-center mt-4">
-            <div  className="text-base sm:text-xl text-black font-semibold  dark:text-neutral-200">Prisca Wase</div>
+            <div  className="text-base sm:text-xl text-black font-semibold  dark:text-neutral-200">Rene Ntabana</div>
             <div className="text-center font-medium">Co-Founder & Chief Executive Officer</div>
         </div>
       </BackgroundGradient>
     </div>
     <div className="mt-9 ">
                 <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
-          Prisca Wase
+          Rene Ntabana
 
         </p>
  
         <p className="text-sm text-neutral-600 dark:text-neutral-400">
           Consistently demonstrates a proactive and enthusiastic approach,
           always driven by a relentless pursuit of innovative ways to make a meaningful
-           and positive impact within her community and beyond.
+           and positive impact within his community and beyond.
         </p>
         <ul className="mt-9" >
                         {
