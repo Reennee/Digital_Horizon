@@ -1,5 +1,5 @@
-## FutureForge Hub
-Welcome to the FutureForge Hub project! This application is designed to provide a platform for students and individuals interested in expanding their knowledge base.
+## DIGITAL HORIZON
+Welcome to the Digital Horizon project! This application is designed to provide a platform for students and individuals interested in expanding their knowledge base.
 
 ## Getting Started
 This is a Next.js project bootstrapped with create-next-app.
@@ -8,7 +8,7 @@ This is a Next.js project bootstrapped with create-next-app.
 Clone the repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/frankflej/learningplatform.git
+git clone https://github.com/Reennee/Digital_Horizon.git
 ```
 Install all the required packages by running the following command:
 
@@ -29,7 +29,7 @@ Once the server is running, navigate to http://localhost:3000 in your browser to
 This project utilizes next/font to automatically optimize and load Inter, a custom Google Font.
 
 ## Contributing
-We welcome contributions from the community! If you'd like to contribute to the FutureForge Hub project, please reach to us on priscauwase2020@gmail.com
+We welcome contributions from the community! If you'd like to contribute to the FutureForge Hub project, please reach to us on r.ntabana@alustudent.com
 
 
 
